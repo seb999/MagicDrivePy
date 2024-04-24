@@ -1,6 +1,6 @@
 import os
 
-folder_path = "/home/sebastien/Pictures/center"
+folder_path = "/home/sebastien/Pictures/left"
 
 # Check if the folder path exists
 if os.path.exists(folder_path):
@@ -11,8 +11,13 @@ if os.path.exists(folder_path):
         
         # Check if the item is a file
         if os.path.isfile(full_file_path):
+            
             # Get the file extension
             file_name, file_extension = os.path.splitext(filename)
+            
+            # file_name = file_name.replace(":", "")
+            # new_file_path = os.path.join(folder_path, file_name)
+            # os.rename(full_file_path, new_file_path)
             
             # Check if the file does not already have a ".jpg" extension
             if file_extension != ".jpg":

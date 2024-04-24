@@ -10,7 +10,7 @@ def connect(sid, environ):
     print(f"Client connected: {sid}")
     
     # Send a "Hello, World!" message to the newly connected client
-    sio.emit("message", "Hello, World!", room=sid)
+    # sio.emit("message", "Hello, World!", room=sid)
 
 # Define an event handler for the "message" event
 @sio.event

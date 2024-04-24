@@ -9,8 +9,7 @@ import time
 import sys 
 import json 
 
-
-labels = ["left", "center", "right"] 
+labels = ["center", "left", "right"] 
 
 # Create a Socket.IO client instance
 sio = socketio.Client()
@@ -37,6 +36,7 @@ interpreter.allocate_tensors()
 picam2 = Picamera2()
 picam2.configure(picam2.create_preview_configuration(main={"format": 'XRGB8888', "size": (640, 480)}))
 picam2.start()
+time.sleep(5)
 picam2.set_controls({"AfMode": 2, "LensPosition": 425})
 
 cv2.startWindowThread()
@@ -58,7 +58,7 @@ def inference_thread():
         interpreter.set_tensor(input_details[0]['index'], processed_image)
         interpreter.invoke()
         predictions = interpreter.get_tensor(output_details[0]['index'])
-        
+
         # Find the index of the label with the highest score
         predicted_label_index = np.argmax(predictions)
         predicted_label = labels[predicted_label_index]
@@ -68,12 +68,11 @@ def inference_thread():
             "label": predicted_label,
             "score": predicted_score
             }
-
+        
+        print(prediction_result)
 
         # Send the JSON result to the Socket.IO server
         sio.emit("message", json.dumps(prediction_result))
-
-
 
         # Introduce a delay to control the inference frequency (e.g., 1 frame per second)
         time.sleep(0.07)  # Sleep for 1 second (adjust the value as needed)
@@ -85,5 +84,12 @@ inference_thread.start()
 # Display the camera frame
 while True:
     im = picam2.capture_array()
-    cv2.imshow("Camera", im)
-    cv2.waitKey(1)
+    #cv2.imshow("Camera", im)
+    # Break the loop and release resources if the window is closed
+    if cv2.waitKey(1) & 0xFF == 27:  # 27 is the ASCII code for the 'Esc' key
+        inference_running = False
+        break
+
+# Release resources
+cv2.destroyAllWindows()
+picam2.stop()
