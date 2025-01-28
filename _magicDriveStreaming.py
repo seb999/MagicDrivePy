@@ -9,7 +9,7 @@ import time
 import sys 
 import json 
 
-labels = ["center", "left", "right"] 
+labels = ["left", "right"] 
 
 # Create a Socket.IO client instance
 sio = socketio.Client()
@@ -30,7 +30,7 @@ def preprocess_image(image, height, width):
     return image
 
 # Load the TensorFlow Lite model
-interpreter = tf.lite.Interpreter(model_path='/home/sebastien/Git/MagicDrivePyService/Model/model.tflite')
+interpreter = tf.lite.Interpreter(model_path='/home/sebastien/Git/MagicDrivePy/model/model.tflite')
 interpreter.allocate_tensors()
 
 picam2 = Picamera2()
@@ -84,7 +84,7 @@ inference_thread.start()
 # Display the camera frame
 while True:
     im = picam2.capture_array()
-    #cv2.imshow("Camera", im)
+    cv2.imshow("Camera", im)
     # Break the loop and release resources if the window is closed
     if cv2.waitKey(1) & 0xFF == 27:  # 27 is the ASCII code for the 'Esc' key
         inference_running = False
