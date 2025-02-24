@@ -14,7 +14,7 @@ DATASET_REPO = "autopilot-dataset-pictures"  # Dataset repo name
 user_profile = os.path.expanduser("~")
 
 base_path = os.path.join(user_profile, "Pictures")
-folders = ['left', 'right', 'center']
+folders = ['center', 'left', 'right']
 jsonl_file_path = os.path.join(base_path, "image_data.jsonl")
 
 ###############################
@@ -95,7 +95,7 @@ def resize_image(target_width=None, target_height=224):
                 print(f"Skipped non-image file: {file_name}")
 
 ###########################################
-# Create JSONL
+# Create JSONL or update it 
 ###########################################
 def create_image_jsonl():
     with open(jsonl_file_path, 'w') as jsonl_file:
@@ -120,13 +120,14 @@ def create_image_jsonl():
     print(f"JSONL file created at: {jsonl_file_path}")
 
 ###########################################
-#  Upload to Hugginge Face
+#  Upload to Hugginge Face (take each image in jsonl and upload then)
 ###########################################
 def upload_dataset_to_hf():     
     # ---------------------------------------------
     # Step 1: Create Hugging Face Dataset
-    # ---------------------------------------------
-    
+    # ---------------------------------------potentionetre
+    # ------
+ 
     api = HfApi()
     api.create_repo(repo_id=f"{HF_USERNAME}/{DATASET_REPO}", repo_type="dataset", exist_ok=True)
 
@@ -172,7 +173,8 @@ def upload_dataset_to_hf():
         print("❌ JSON file not created.")
     print("🎉 All images uploaded successfully!")
 
-rename_image_withExtension()
-resize_image(target_height=224)
-create_image_jsonl()
+#rename_image_withExtension()
+#resize_image(target_height=224)rdp
+#create_image_jsonl()t
+
 upload_dataset_to_hf()

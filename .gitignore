@@ -1,3 +1,5 @@
 model/
 modelForAnimalDetection/
 env/
+
+model.tflite

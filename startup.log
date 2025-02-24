@@ -1,0 +1,504 @@
+==========================
+Mon 24 Feb 11:47:34 CET 2025: Starting services...
+Error: Virtual environment not found at /root/Git/MagicDrivePy/env
+==========================
+Mon 24 Feb 11:48:21 CET 2025: Starting services...
+Mon 24 Feb 11:48:21 CET 2025: Starting Socket-io server...
+Error: MagicDrive application not found!
+(16366) wsgi starting up on http://127.0.0.1:5000
+==========================
+Mon 24 Feb 11:48:57 CET 2025: Starting services...
+Mon 24 Feb 11:48:57 CET 2025: Starting Socket-io server...
+Mon 24 Feb 11:48:57 CET 2025: Starting MagicDrive .NET Core application...
+start.sh: line 48: /root/.dotnet/dotnet: No such file or directory
+Mon 24 Feb 11:48:57 CET 2025: Starting Streaming/Tensorflow camera service...
+(16472) wsgi starting up on http://127.0.0.1:5000
+(16366) accepted ('127.0.0.1', 41018)
+127.0.0.1 - - [24/Feb/2025 11:49:19] "GET /socket.io/?transport=polling&EIO=4&t=1740394159.6987202 HTTP/1.1" 200 300 0.000388
+(16472) accepted ('127.0.0.1', 41026)
+Invalid session yII-B5cGZj7J5FsnAAAA (further occurrences of this error will be logged with level INFO)
+127.0.0.1 - - [24/Feb/2025 11:49:19] "GET /socket.io/?transport=websocket&EIO=4&sid=yII-B5cGZj7J5FsnAAAA&t=1740394159.7029307 HTTP/1.1" 400 241 0.000326
+(16472) accepted ('127.0.0.1', 41028)
+127.0.0.1 - - [24/Feb/2025 11:49:19] "POST /socket.io/?transport=polling&EIO=4&sid=yII-B5cGZj7J5FsnAAAA HTTP/1.1" 200 167 0.000819
+127.0.0.1 - - [24/Feb/2025 11:49:19] "GET /socket.io/?transport=polling&EIO=4&sid=yII-B5cGZj7J5FsnAAAA&t=1740394159.706001 HTTP/1.1" 400 213 0.000728
+127.0.0.1 - - [24/Feb/2025 11:49:20] "GET /socket.io/?transport=polling&EIO=4&t=1740394160.2827144 HTTP/1.1" 200 300 0.000329
+(16366) accepted ('127.0.0.1', 41030)
+Error in cpuinfo: prctl(PR_SVE_GET_VL) failed
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+[0:43:42.433853283] [16613] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:313 [0mlibcamera v0.3.0+65-6ddd79b5
+[0:43:42.442260904] [16633] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:695 [0mlibpisp version v1.0.6 b567f0455680 17-06-2024 (10:20:00)
+[0:43:42.452104712] [16633] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1154 [0mRegistered camera /base/axi/pcie@120000/rp1/i2c@88000/imx708@1a to CFE device /dev/media0 and ISP device /dev/media1 using PiSP variant BCM2712_C0
+[0:43:42.453624806] [16613] [1;32m INFO [1;37mCamera [1;34mcamera_manager.cpp:313 [0mlibcamera v0.3.0+65-6ddd79b5
+[0:43:42.461697519] [16636] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:695 [0mlibpisp version v1.0.6 b567f0455680 17-06-2024 (10:20:00)
+[0:43:42.471972012] [16636] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1154 [0mRegistered camera /base/axi/pcie@120000/rp1/i2c@88000/imx708@1a to CFE device /dev/media0 and ISP device /dev/media1 using PiSP variant BCM2712_C0
+[0:43:42.474364904] [16613] [1;33m WARN [1;37mV4L2 [1;34mv4l2_pixelformat.cpp:344 [0mUnsupported V4L2 pixel format RPBP
+[0:43:42.475080720] [16613] [1;32m INFO [1;37mCamera [1;34mcamera.cpp:1183 [0mconfiguring streams: (0) 640x480-XRGB8888 (1) 1536x864-BGGR_PISP_COMP1
+[0:43:42.475211683] [16636] [1;32m INFO [1;37mRPI [1;34mpisp.cpp:1450 [0mSensor: /base/axi/pcie@120000/rp1/i2c@88000/imx708@1a - Selected sensor format: 1536x864-SBGGR10_1X10 - Selected CFE format: 1536x864-PC1B
+127.0.0.1 - - [24/Feb/2025 11:49:52] "GET /socket.io/?transport=websocket&EIO=4&sid=RHTwFWiYUMZ-Bp46AAAC&t=1740394160.28526 HTTP/1.1" 200 0 32.268487
+{'label': 'right', 'score': 0.7753376960754395}
+{'label': 'right', 'score': 0.7754729986190796}
+{'label': 'right', 'score': 0.7762393951416016}
+{'label': 'right', 'score': 0.7714313864707947}
+{'label': 'right', 'score': 0.7698908448219299}
+{'label': 'right', 'score': 0.7736756801605225}
+{'label': 'right', 'score': 0.7745376229286194}
+{'label': 'right', 'score': 0.7811249494552612}
+{'label': 'right', 'score': 0.7831897735595703}
+{'label': 'right', 'score': 0.780836284160614}
+{'label': 'right', 'score': 0.7742382884025574}
+{'label': 'right', 'score': 0.7899218201637268}
+{'label': 'right', 'score': 0.7817866206169128}
+{'label': 'right', 'score': 0.7764670848846436}
+{'label': 'right', 'score': 0.7732963562011719}
+{'label': 'right', 'score': 0.7694242596626282}
+{'label': 'right', 'score': 0.7625449895858765}
+{'label': 'right', 'score': 0.7693052291870117}
+{'label': 'right', 'score': 0.7821574211120605}
+{'label': 'right', 'score': 0.7817605137825012}
+{'label': 'right', 'score': 0.7767684459686279}
+{'label': 'right', 'score': 0.7804108262062073}
+{'label': 'right', 'score': 0.7828629016876221}
+{'label': 'right', 'score': 0.7739130854606628}
+{'label': 'right', 'score': 0.7798054218292236}
+{'label': 'right', 'score': 0.7709077596664429}
+{'label': 'right', 'score': 0.7799018025398254}
+{'label': 'right', 'score': 0.7754049301147461}
+{'label': 'right', 'score': 0.7721115946769714}
+{'label': 'right', 'score': 0.7728021144866943}
+{'label': 'right', 'score': 0.7658021450042725}
+{'label': 'right', 'score': 0.7680213451385498}
+{'label': 'right', 'score': 0.7645103335380554}
+{'label': 'right', 'score': 0.7684677243232727}
+{'label': 'right', 'score': 0.7710725665092468}
+{'label': 'right', 'score': 0.7662788033485413}
+{'label': 'right', 'score': 0.7602235674858093}
+{'label': 'right', 'score': 0.7573347687721252}
+{'label': 'right', 'score': 0.7566393613815308}
+{'label': 'right', 'score': 0.763748824596405}
+{'label': 'right', 'score': 0.7623452544212341}
+{'label': 'right', 'score': 0.7690273523330688}
+{'label': 'right', 'score': 0.7700628042221069}
+{'label': 'right', 'score': 0.762174665927887}
+{'label': 'right', 'score': 0.7641730904579163}
+{'label': 'right', 'score': 0.7697691917419434}
+{'label': 'right', 'score': 0.7696412801742554}
+{'label': 'right', 'score': 0.7705371975898743}
+{'label': 'right', 'score': 0.7643041610717773}
+{'label': 'right', 'score': 0.7624151110649109}
+{'label': 'right', 'score': 0.7670694589614868}
+{'label': 'right', 'score': 0.7696905136108398}
+{'label': 'right', 'score': 0.7780358195304871}
+{'label': 'right', 'score': 0.7676919102668762}
+{'label': 'right', 'score': 0.7689988613128662}
+{'label': 'right', 'score': 0.7624388337135315}
+{'label': 'right', 'score': 0.7585731744766235}
+{'label': 'right', 'score': 0.7669214010238647}
+{'label': 'right', 'score': 0.7575305104255676}
+{'label': 'right', 'score': 0.7603195905685425}
+{'label': 'right', 'score': 0.766872763633728}
+{'label': 'right', 'score': 0.7594471573829651}
+{'label': 'right', 'score': 0.7606892585754395}
+{'label': 'right', 'score': 0.7628677487373352}
+{'label': 'right', 'score': 0.7702978849411011}
+{'label': 'right', 'score': 0.7713753581047058}
+{'label': 'right', 'score': 0.7582830786705017}
+Traceback (most recent call last):
+  File "/home/sebastien/Git/MagicDrivePy/_magicDriveStreaming.py", line 90, in <module>
+    im = picam2.capture_array()
+         ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/picamera2/picamera2.py", line 1574, in capture_array
+    return self.dispatch_functions([partial(self.capture_array_, name)], wait, signal_function)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/picamera2/picamera2.py", line 1320, in dispatch_functions
+    return job.get_result() if wait else job
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/picamera2/job.py", line 79, in get_result
+    return self._future.result(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/concurrent/futures/_base.py", line 451, in result
+    self._condition.wait(timeout)
+  File "/usr/lib/python3.11/threading.py", line 320, in wait
+    waiter.acquire()
+  File "/home/sebastien/Git/MagicDrivePy/env/lib/python3.11/site-packages/engineio/base_client.py", line 21, in signal_handler
+    return original_signal_handler(sig, frame)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sebastien/Git/MagicDrivePy/env/lib/python3.11/site-packages/socketio/base_client.py", line 24, in signal_handler
+    return original_signal_handler(sig, frame)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+Exception in thread Thread-9 (inference_thread):
+Traceback (most recent call last):
+  File "/usr/lib/python3.11/threading.py", line 1038, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.11/threading.py", line 975, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/sebastien/Git/MagicDrivePy/_magicDriveStreaming.py", line 78, in inference_thread
+    sio.emit("message", json.dumps(prediction_result))
+  File "/home/sebastien/Git/MagicDrivePy/env/lib/python3.11/site-packages/socketio/client.py", line 219, in emit
+    raise exceptions.BadNamespaceError(
+socketio.exceptions.BadNamespaceError: / is not a connected namespace.
+{'label': 'right', 'score': 0.7760416269302368}
+==========================
+Mon 24 Feb 11:49:54 CET 2025: Starting services...
+Mon 24 Feb 11:49:54 CET 2025: Starting Socket-io server...
+Mon 24 Feb 11:49:54 CET 2025: Starting MagicDrive .NET Core application...
+start.sh: line 48: /root/.dotnet/dotnet: No such file or directory
+Mon 24 Feb 11:49:54 CET 2025: Starting Streaming/Tensorflow camera service...
+(16845) wsgi starting up on http://127.0.0.1:5000
+==========================
+Mon 24 Feb 11:52:57 CET 2025: Starting services...
+Mon 24 Feb 11:52:57 CET 2025: Starting Socket-io server...
+Mon 24 Feb 11:52:57 CET 2025: Starting MagicDrive .NET Core application...
+start.sh: line 51: /root/.dotnet/dotnet: No such file or directory
+Mon 24 Feb 11:52:57 CET 2025: Starting Streaming/Tensorflow camera service...
+(17361) wsgi starting up on http://127.0.0.1:5000
+(16366) accepted ('127.0.0.1', 38138)
+127.0.0.1 - - [24/Feb/2025 11:53:20] "GET /socket.io/?transport=polling&EIO=4&t=1740394400.24351 HTTP/1.1" 200 300 0.000306
+(17361) accepted ('127.0.0.1', 38148)
+Invalid session ACuX3EJ3GgQXbpZCAAAE (further occurrences of this error will be logged with level INFO)
+127.0.0.1 - - [24/Feb/2025 11:53:20] "GET /socket.io/?transport=websocket&EIO=4&sid=ACuX3EJ3GgQXbpZCAAAE&t=1740394400.24723 HTTP/1.1" 400 241 0.000359
+(16472) accepted ('127.0.0.1', 38164)
+127.0.0.1 - - [24/Feb/2025 11:53:20] "GET /socket.io/?transport=polling&EIO=4&sid=ACuX3EJ3GgQXbpZCAAAE&t=1740394400.249422 HTTP/1.1" 400 213 0.000177
+127.0.0.1 - - [24/Feb/2025 11:53:20] "POST /socket.io/?transport=polling&EIO=4&sid=ACuX3EJ3GgQXbpZCAAAE HTTP/1.1" 200 167 0.000911
+127.0.0.1 - - [24/Feb/2025 11:53:21] "GET /socket.io/?transport=polling&EIO=4&t=1740394401.243089 HTTP/1.1" 200 300 0.000299
+(16472) accepted ('127.0.0.1', 38172)
+127.0.0.1 - - [24/Feb/2025 11:53:21] "GET /socket.io/?transport=websocket&EIO=4&sid=OQeNC4KIK8ZiQNEuAAAG&t=1740394401.2453046 HTTP/1.1" 400 241 0.000184
+127.0.0.1 - - [24/Feb/2025 11:53:21] "GET /socket.io/?transport=polling&EIO=4&sid=OQeNC4KIK8ZiQNEuAAAG&t=1740394401.2478619 HTTP/1.1" 400 213 0.000167
+127.0.0.1 - - [24/Feb/2025 11:53:21] "POST /socket.io/?transport=polling&EIO=4&sid=OQeNC4KIK8ZiQNEuAAAG HTTP/1.1" 200 167 0.001074
+127.0.0.1 - - [24/Feb/2025 11:53:23] "GET /socket.io/?transport=polling&EIO=4&t=1740394403.8555193 HTTP/1.1" 200 300 0.000304
+(16366) accepted ('127.0.0.1', 38186)
+127.0.0.1 - - [24/Feb/2025 12:03:39] "GET /socket.io/?transport=websocket&EIO=4&sid=eA9Zzmva_rFUfIHAAAAI&t=1740394403.8578038 HTTP/1.1" 200 0 615.558960
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+SOCKET.IO SERVER NOT RUNNING, RETRYING IN 5 SECONDS...
+Traceback (most recent call last):
+  File "/home/sebastien/Git/MagicDrivePy/_magicDriveStreaming.py", line 21, in <module>
+    sio.connect("http://127.0.0.1:5000")
+  File "/home/sebastien/Git/MagicDrivePy/env/lib/python3.11/site-packages/socketio/client.py", line 120, in connect
+    raise exceptions.ConnectionError('Already connected')
+socketio.exceptions.ConnectionError: Already connected
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/sebastien/Git/MagicDrivePy/_magicDriveStreaming.py", line 25, in <module>
+    time.sleep(5)
+  File "/home/sebastien/Git/MagicDrivePy/env/lib/python3.11/site-packages/engineio/base_client.py", line 21, in signal_handler
+    return original_signal_handler(sig, frame)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sebastien/Git/MagicDrivePy/env/lib/python3.11/site-packages/socketio/base_client.py", line 24, in signal_handler
+    return original_signal_handler(sig, frame)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+==========================
+Mon 24 Feb 12:03:41 CET 2025: Starting services...
+Mon 24 Feb 12:03:41 CET 2025: Starting Socket-io server...
+Mon 24 Feb 12:03:41 CET 2025: Starting MagicDrive .NET Core application...
+start.sh: line 47: /root/.dotnet/dotnet: No such file or directory
+Mon 24 Feb 12:03:41 CET 2025: Starting Streaming/Tensorflow camera service...
+(18593) wsgi starting up on http://127.0.0.1:5000
+==========================
+Mon 24 Feb 13:01:08 CET 2025: Starting services...
+==========================
+Mon 24 Feb 13:01:29 CET 2025: Starting services...
+==========================
+Mon 24 Feb 13:03:22 CET 2025: Starting services...
+Python Virtual Environment ACTIVATED
+==========================
+Mon 24 Feb 13:04:06 CET 2025: Starting services...
+Python Virtual Environment ACTIVATED
+(16845) accepted ('127.0.0.1', 59874)
+127.0.0.1 - - [24/Feb/2025 13:15:28] "GET /socket.io/?EIO=4&transport=polling HTTP/1.1" 200 276 0.000616
+(16472) accepted ('127.0.0.1', 59878)
+(17361) accepted ('127.0.0.1', 57972)
+127.0.0.1 - - [24/Feb/2025 13:15:45] "GET /socket.io/?transport=polling&EIO=4&t=1740399345.1533148 HTTP/1.1" 200 300 0.000398
+(16845) accepted ('127.0.0.1', 57980)
+Invalid session qhxX4mnIf7YBz2h5AAAA (further occurrences of this error will be logged with level INFO)
+127.0.0.1 - - [24/Feb/2025 13:15:45] "GET /socket.io/?transport=websocket&EIO=4&sid=qhxX4mnIf7YBz2h5AAAA&t=1740399345.1574154 HTTP/1.1" 400 241 0.000330
+(18593) accepted ('127.0.0.1', 57996)
+127.0.0.1 - - [24/Feb/2025 13:15:45] "POST /socket.io/?transport=polling&EIO=4&sid=qhxX4mnIf7YBz2h5AAAA HTTP/1.1" 200 167 0.000859
+Invalid session qhxX4mnIf7YBz2h5AAAA (further occurrences of this error will be logged with level INFO)
+127.0.0.1 - - [24/Feb/2025 13:15:45] "GET /socket.io/?transport=polling&EIO=4&sid=qhxX4mnIf7YBz2h5AAAA&t=1740399345.1599844 HTTP/1.1" 400 213 0.000365
+127.0.0.1 - - [24/Feb/2025 13:15:46] "GET /socket.io/?transport=polling&EIO=4&t=1740399346.2037938 HTTP/1.1" 200 300 0.000779
+(16845) accepted ('127.0.0.1', 58000)
+127.0.0.1 - - [24/Feb/2025 13:15:46] "GET /socket.io/?transport=websocket&EIO=4&sid=rF3pnKkDzNaAruBUAAAA&t=1740399346.208114 HTTP/1.1" 400 241 0.000591
+127.0.0.1 - - [24/Feb/2025 13:15:46] "GET /socket.io/?transport=polling&EIO=4&sid=rF3pnKkDzNaAruBUAAAA&t=1740399346.212384 HTTP/1.1" 400 213 0.000309
+127.0.0.1 - - [24/Feb/2025 13:15:46] "POST /socket.io/?transport=polling&EIO=4&sid=rF3pnKkDzNaAruBUAAAA HTTP/1.1" 200 167 0.005034
+127.0.0.1 - - [24/Feb/2025 13:15:49] "GET /socket.io/?transport=polling&EIO=4&t=1740399349.3312807 HTTP/1.1" 200 300 0.000352
+(16366) accepted ('127.0.0.1', 52250)
+Invalid session Uy1lvVkP54Wt1iEgAAAC (further occurrences of this error will be logged with level INFO)
+127.0.0.1 - - [24/Feb/2025 13:15:49] "GET /socket.io/?transport=websocket&EIO=4&sid=Uy1lvVkP54Wt1iEgAAAC&t=1740399349.3335729 HTTP/1.1" 400 241 0.000347
+127.0.0.1 - - [24/Feb/2025 13:15:49] "GET /socket.io/?transport=polling&EIO=4&sid=Uy1lvVkP54Wt1iEgAAAC&t=1740399349.335833 HTTP/1.1" 400 213 0.000183
+127.0.0.1 - - [24/Feb/2025 13:15:49] "POST /socket.io/?transport=polling&EIO=4&sid=Uy1lvVkP54Wt1iEgAAAC HTTP/1.1" 200 167 0.000664
+127.0.0.1 - - [24/Feb/2025 13:15:51] "GET /socket.io/?transport=polling&EIO=4&t=1740399351.1614835 HTTP/1.1" 200 300 0.000631
+(16845) accepted ('127.0.0.1', 52262)
+127.0.0.1 - - [24/Feb/2025 13:15:51] "GET /socket.io/?transport=websocket&EIO=4&sid=khRAgVTlg_W5THViAAAE&t=1740399351.1657066 HTTP/1.1" 400 241 0.000298
+127.0.0.1 - - [24/Feb/2025 13:15:51] "GET /socket.io/?transport=polling&EIO=4&sid=khRAgVTlg_W5THViAAAE&t=1740399351.1684668 HTTP/1.1" 400 213 0.000170
+127.0.0.1 - - [24/Feb/2025 13:15:51] "POST /socket.io/?transport=polling&EIO=4&sid=khRAgVTlg_W5THViAAAE HTTP/1.1" 200 167 0.000648
+127.0.0.1 - - [24/Feb/2025 13:15:54] "GET /socket.io/?transport=polling&EIO=4&t=1740399354.081853 HTTP/1.1" 200 300 0.000365
+127.0.0.1 - - [24/Feb/2025 13:15:54] "GET /socket.io/?transport=polling&EIO=4&sid=Qyxif98T_RqIGiyIAAAG&t=1740399354.0870373 HTTP/1.1" 400 213 0.000175
+127.0.0.1 - - [24/Feb/2025 13:15:54] "POST /socket.io/?transport=polling&EIO=4&sid=Qyxif98T_RqIGiyIAAAG HTTP/1.1" 200 167 0.001483
+127.0.0.1 - - [24/Feb/2025 13:15:57] "GET /socket.io/?transport=polling&EIO=4&t=1740399357.1689231 HTTP/1.1" 200 300 0.000324
+(16472) accepted ('127.0.0.1', 52288)
+127.0.0.1 - - [24/Feb/2025 13:15:57] "GET /socket.io/?transport=websocket&EIO=4&sid=e5CjzUVctLkjhLPDAAAI&t=1740399357.1711283 HTTP/1.1" 400 241 0.000182
+127.0.0.1 - - [24/Feb/2025 13:15:57] "POST /socket.io/?transport=polling&EIO=4&sid=e5CjzUVctLkjhLPDAAAI HTTP/1.1" 200 167 0.000730
+127.0.0.1 - - [24/Feb/2025 13:15:57] "GET /socket.io/?transport=polling&EIO=4&sid=e5CjzUVctLkjhLPDAAAI&t=1740399357.1728837 HTTP/1.1" 400 213 0.000208
+127.0.0.1 - - [24/Feb/2025 13:16:00] "GET /socket.io/?transport=polling&EIO=4&t=1740399360.268815 HTTP/1.1" 200 300 0.001170
+127.0.0.1 - - [24/Feb/2025 13:16:00] "POST /socket.io/?transport=polling&EIO=4&sid=ubVdOeb2sUty4bllAAAC HTTP/1.1" 200 167 0.000922
+127.0.0.1 - - [24/Feb/2025 13:16:00] "GET /socket.io/?transport=polling&EIO=4&sid=ubVdOeb2sUty4bllAAAC&t=1740399360.2750912 HTTP/1.1" 400 213 0.000270
+127.0.0.1 - - [24/Feb/2025 13:16:03] "GET /socket.io/?transport=polling&EIO=4&t=1740399363.1733062 HTTP/1.1" 200 300 0.000304
+127.0.0.1 - - [24/Feb/2025 13:16:03] "GET /socket.io/?transport=polling&EIO=4&sid=hXq_O2Yi3pcVlCLfAAAK&t=1740399363.1774056 HTTP/1.1" 400 213 0.000158
+127.0.0.1 - - [24/Feb/2025 13:16:03] "POST /socket.io/?transport=polling&EIO=4&sid=hXq_O2Yi3pcVlCLfAAAK HTTP/1.1" 200 167 0.000809
+127.0.0.1 - - [24/Feb/2025 13:16:06] "GET /socket.io/?transport=polling&EIO=4&t=1740399366.0750077 HTTP/1.1" 200 300 0.000324
+127.0.0.1 - - [24/Feb/2025 13:16:06] "POST /socket.io/?transport=polling&EIO=4&sid=XBpNDz9GX6I1LIr0AAAM HTTP/1.1" 200 167 0.000901
+127.0.0.1 - - [24/Feb/2025 13:16:06] "GET /socket.io/?transport=polling&EIO=4&sid=XBpNDz9GX6I1LIr0AAAM&t=1740399366.0813498 HTTP/1.1" 400 213 0.000191
+127.0.0.1 - - [24/Feb/2025 13:16:09] "GET /socket.io/?transport=polling&EIO=4&t=1740399369.1783803 HTTP/1.1" 200 300 0.000310
+(16472) accepted ('127.0.0.1', 46642)
+127.0.0.1 - - [24/Feb/2025 13:16:09] "GET /socket.io/?transport=websocket&EIO=4&sid=HkZjfQLLpdjSu4cjAAAE&t=1740399369.180404 HTTP/1.1" 400 241 0.000179
+127.0.0.1 - - [24/Feb/2025 13:16:09] "GET /socket.io/?transport=polling&EIO=4&sid=HkZjfQLLpdjSu4cjAAAE&t=1740399369.1822138 HTTP/1.1" 400 213 0.000175
+127.0.0.1 - - [24/Feb/2025 13:16:09] "POST /socket.io/?transport=polling&EIO=4&sid=HkZjfQLLpdjSu4cjAAAE HTTP/1.1" 200 167 0.001126
+127.0.0.1 - - [24/Feb/2025 13:16:12] "GET /socket.io/?transport=polling&EIO=4&t=1740399372.4416165 HTTP/1.1" 200 300 0.000319
+(16472) accepted ('127.0.0.1', 46648)
+127.0.0.1 - - [24/Feb/2025 13:16:12] "GET /socket.io/?transport=websocket&EIO=4&sid=aOvjRA9zZjKvInX3AAAG&t=1740399372.443777 HTTP/1.1" 400 241 0.000711
+127.0.0.1 - - [24/Feb/2025 13:16:12] "POST /socket.io/?transport=polling&EIO=4&sid=aOvjRA9zZjKvInX3AAAG HTTP/1.1" 200 167 0.000563
+127.0.0.1 - - [24/Feb/2025 13:16:12] "GET /socket.io/?transport=polling&EIO=4&sid=aOvjRA9zZjKvInX3AAAG&t=1740399372.4463646 HTTP/1.1" 400 213 0.000151
+127.0.0.1 - - [24/Feb/2025 13:16:15] "GET /socket.io/?transport=polling&EIO=4&t=1740399375.1831808 HTTP/1.1" 200 300 0.000308
+127.0.0.1 - - [24/Feb/2025 13:16:15] "GET /socket.io/?transport=polling&EIO=4&sid=nSv05DT5LRXD-UnwAAAO&t=1740399375.1871452 HTTP/1.1" 400 213 0.000152
+127.0.0.1 - - [24/Feb/2025 13:16:15] "POST /socket.io/?transport=polling&EIO=4&sid=nSv05DT5LRXD-UnwAAAO HTTP/1.1" 200 167 0.000540
+127.0.0.1 - - [24/Feb/2025 13:16:18] "GET /socket.io/?transport=polling&EIO=4&t=1740399378.1447542 HTTP/1.1" 200 300 0.000310
+(17361) accepted ('127.0.0.1', 46668)
+127.0.0.1 - - [24/Feb/2025 13:16:18] "GET /socket.io/?transport=websocket&EIO=4&sid=miVHqg4aWEGtbJwoAAAQ&t=1740399378.1472194 HTTP/1.1" 400 241 0.000202
+127.0.0.1 - - [24/Feb/2025 13:16:18] "GET /socket.io/?transport=polling&EIO=4&sid=miVHqg4aWEGtbJwoAAAQ&t=1740399378.1497242 HTTP/1.1" 400 213 0.000191
+127.0.0.1 - - [24/Feb/2025 13:16:18] "POST /socket.io/?transport=polling&EIO=4&sid=miVHqg4aWEGtbJwoAAAQ HTTP/1.1" 200 167 0.001237
+127.0.0.1 - - [24/Feb/2025 13:16:21] "GET /socket.io/?transport=polling&EIO=4&t=1740399381.1875992 HTTP/1.1" 200 300 0.000371
+(18593) accepted ('127.0.0.1', 38676)
+127.0.0.1 - - [24/Feb/2025 13:16:22] "GET /socket.io/?EIO=4&transport=websocket HTTP/1.1" 200 0 53.809749
+127.0.0.1 - - [24/Feb/2025 13:16:22] "GET /socket.io/?transport=websocket&EIO=4&sid=4YNQ2Y8dP9srwSfZAAAS&t=1740399381.1905587 HTTP/1.1" 200 0 0.900377
+(18593) accepted ('127.0.0.1', 42860)
+(16366) accepted ('127.0.0.1', 52258)
+127.0.0.1 - - [24/Feb/2025 13:16:50] "GET /socket.io/?transport=websocket&EIO=4&sid=reAZFS0IKNDUxg5PAAAB&t=1740399410.188023 HTTP/1.1" 400 241 0.000171
+(17361) accepted ('127.0.0.1', 52260)
+127.0.0.1 - - [24/Feb/2025 13:16:50] "POST /socket.io/?transport=polling&EIO=4&sid=reAZFS0IKNDUxg5PAAAB HTTP/1.1" 400 213 0.000168
+127.0.0.1 - - [24/Feb/2025 13:16:56] "GET /socket.io/?transport=polling&EIO=4&t=1740399416.192224 HTTP/1.1" 200 300 0.000296
+(16366) accepted ('127.0.0.1', 52270)
+127.0.0.1 - - [24/Feb/2025 13:16:56] "GET /socket.io/?transport=websocket&EIO=4&sid=_pCUIfA8QuFEGJsPAAAI&t=1740399416.1945448 HTTP/1.1" 400 241 0.000167
+(16845) accepted ('127.0.0.1', 52278)
+127.0.0.1 - - [24/Feb/2025 13:16:56] "POST /socket.io/?transport=polling&EIO=4&sid=_pCUIfA8QuFEGJsPAAAI HTTP/1.1" 200 167 0.000941
+127.0.0.1 - - [24/Feb/2025 13:16:56] "GET /socket.io/?transport=polling&EIO=4&sid=_pCUIfA8QuFEGJsPAAAI&t=1740399416.1966498 HTTP/1.1" 400 213 0.000167
+127.0.0.1 - - [24/Feb/2025 13:16:57] "GET /socket.io/?transport=polling&EIO=4&t=1740399417.4750216 HTTP/1.1" 200 300 0.000595
+(16845) accepted ('127.0.0.1', 52280)
+(18593) accepted ('127.0.0.1', 43504)
+127.0.0.1 - - [24/Feb/2025 13:17:16] "GET /socket.io/?transport=websocket&EIO=4&sid=91Q9LlqsczmKTkqtAAAC&t=1740399436.3002121 HTTP/1.1" 400 241 0.000915
+127.0.0.1 - - [24/Feb/2025 13:17:16] "GET /socket.io/?transport=polling&EIO=4&sid=91Q9LlqsczmKTkqtAAAC&t=1740399436.3043244 HTTP/1.1" 400 213 0.000193
+(16366) accepted ('127.0.0.1', 43518)
+127.0.0.1 - - [24/Feb/2025 13:17:17] "GET /socket.io/?transport=websocket&EIO=4&sid=LPoksDXqR5LCHzabAAAE&t=1740399437.2010262 HTTP/1.1" 400 241 0.000270
+127.0.0.1 - - [24/Feb/2025 13:17:17] "GET /socket.io/?transport=polling&EIO=4&sid=LPoksDXqR5LCHzabAAAE&t=1740399437.2041526 HTTP/1.1" 400 213 0.000224
+127.0.0.1 - - [24/Feb/2025 13:17:19] "GET /socket.io/?transport=polling&EIO=4&sid=SAJvnux6_1uXsnGvAAAG&t=1740399439.43603 HTTP/1.1" 400 213 0.000166
+127.0.0.1 - - [24/Feb/2025 13:17:23] "GET /socket.io/?transport=polling&EIO=4&t=1740399443.2046814 HTTP/1.1" 200 300 0.000321
+(16472) accepted ('127.0.0.1', 35290)
+127.0.0.1 - - [24/Feb/2025 13:17:23] "GET /socket.io/?transport=websocket&EIO=4&sid=8RjF1X_TLtCDn1iAAAAD&t=1740399443.2067294 HTTP/1.1" 400 241 0.000163
+127.0.0.1 - - [24/Feb/2025 13:17:23] "POST /socket.io/?transport=polling&EIO=4&sid=8RjF1X_TLtCDn1iAAAAD HTTP/1.1" 200 167 0.000914
+127.0.0.1 - - [24/Feb/2025 13:17:24] "GET /socket.io/?transport=polling&EIO=4&t=1740399444.2813792 HTTP/1.1" 200 300 0.000340
+127.0.0.1 - - [24/Feb/2025 13:17:24] "POST /socket.io/?transport=polling&EIO=4&sid=TLc38qVozqgRdaClAAAF HTTP/1.1" 200 167 0.001954
+127.0.0.1 - - [24/Feb/2025 13:17:29] "GET /socket.io/?transport=polling&EIO=4&t=1740399449.2095578 HTTP/1.1" 200 300 0.000502
+(18593) accepted ('127.0.0.1', 58240)
+127.0.0.1 - - [24/Feb/2025 13:17:29] "GET /socket.io/?transport=websocket&EIO=4&sid=GPY-06H_y4jH6zflAAAH&t=1740399449.2124991 HTTP/1.1" 400 241 0.000225
+127.0.0.1 - - [24/Feb/2025 13:17:29] "POST /socket.io/?transport=polling&EIO=4&sid=GPY-06H_y4jH6zflAAAH HTTP/1.1" 200 167 0.001142
+127.0.0.1 - - [24/Feb/2025 13:17:30] "GET /socket.io/?transport=polling&EIO=4&t=1740399450.5673604 HTTP/1.1" 200 300 0.000295
+127.0.0.1 - - [24/Feb/2025 13:17:30] "POST /socket.io/?transport=polling&EIO=4&sid=Y9PlhPN1ALewsIx_AAAJ HTTP/1.1" 200 167 0.000932
+127.0.0.1 - - [24/Feb/2025 13:17:35] "GET /socket.io/?transport=polling&EIO=4&t=1740399455.2154763 HTTP/1.1" 200 300 0.000290
+(16472) accepted ('127.0.0.1', 58260)
+127.0.0.1 - - [24/Feb/2025 13:17:35] "GET /socket.io/?transport=websocket&EIO=4&sid=UOdSJWFLi7v73l0tAAAL&t=1740399455.2174153 HTTP/1.1" 400 241 0.000165
+127.0.0.1 - - [24/Feb/2025 13:17:35] "POST /socket.io/?transport=polling&EIO=4&sid=UOdSJWFLi7v73l0tAAAL HTTP/1.1" 200 167 0.000754
+(17361) accepted ('127.0.0.1', 58266)
+127.0.0.1 - - [24/Feb/2025 13:17:36] "GET /socket.io/?transport=websocket&EIO=4&sid=frq0tnPybB-yudmhAAAI&t=1740399456.2155147 HTTP/1.1" 400 241 0.000159
+127.0.0.1 - - [24/Feb/2025 13:17:36] "GET /socket.io/?transport=polling&EIO=4&sid=frq0tnPybB-yudmhAAAI&t=1740399456.2172856 HTTP/1.1" 400 213 0.000156
+127.0.0.1 - - [24/Feb/2025 13:17:38] "GET /socket.io/?transport=websocket&EIO=4&sid=JRFFGR_KdUozimTeAAAB&t=1740399417.4788342 HTTP/1.1" 200 0 41.339015
+127.0.0.1 - - [24/Feb/2025 13:17:38] "GET /socket.io/?EIO=4&transport=websocket HTTP/1.1" 200 0 65.915291
+(16845) accepted ('127.0.0.1', 36860)
+127.0.0.1 - - [24/Feb/2025 13:21:51] "GET /socket.io/?transport=websocket&EIO=4&sid=mIFC2VSLNonoGMFcAAAK&t=1740399711.9674535 HTTP/1.1" 400 241 0.000180
+(17361) accepted ('127.0.0.1', 36870)
+127.0.0.1 - - [24/Feb/2025 13:21:51] "GET /socket.io/?transport=polling&EIO=4&sid=mIFC2VSLNonoGMFcAAAK&t=1740399711.97137 HTTP/1.1" 400 213 0.000190
+127.0.0.1 - - [24/Feb/2025 13:21:52] "GET /socket.io/?transport=polling&EIO=4&t=1740399712.9259741 HTTP/1.1" 200 300 0.000349
+127.0.0.1 - - [24/Feb/2025 13:21:52] "POST /socket.io/?transport=polling&EIO=4&sid=h4eFI7OZ8-oV9oWXAAAK HTTP/1.1" 200 167 0.000677
+(17361) accepted ('127.0.0.1', 36888)
+127.0.0.1 - - [24/Feb/2025 13:21:56] "GET /socket.io/?transport=websocket&EIO=4&sid=fOITh7sT-U5bJ9oCAAAM&t=1740399716.074701 HTTP/1.1" 400 241 0.000273
+127.0.0.1 - - [24/Feb/2025 13:21:56] "GET /socket.io/?transport=polling&EIO=4&sid=fOITh7sT-U5bJ9oCAAAM&t=1740399716.0777764 HTTP/1.1" 400 213 0.000215
+127.0.0.1 - - [24/Feb/2025 13:21:57] "GET /socket.io/?transport=polling&EIO=4&t=1740399717.9745882 HTTP/1.1" 200 300 0.000609
+127.0.0.1 - - [24/Feb/2025 13:21:58] "POST /socket.io/?transport=polling&EIO=4&sid=2bhV8FSNnghal8PUAAAM HTTP/1.1" 200 167 0.002980
+(18593) accepted ('127.0.0.1', 43752)
+127.0.0.1 - - [24/Feb/2025 13:23:37] "GET /socket.io/?transport=websocket&EIO=4&sid=e6OzUKnOWu91r6jSAAAA&t=1740399817.167924 HTTP/1.1" 400 241 0.000170
+(16366) accepted ('127.0.0.1', 42810)
+127.0.0.1 - - [24/Feb/2025 13:24:12] "GET /socket.io/?transport=websocket&EIO=4&sid=428JIq3BG-gpdAT1AAAF&t=1740399852.5928814 HTTP/1.1" 400 241 0.000230
+(17361) accepted ('127.0.0.1', 42820)
+127.0.0.1 - - [24/Feb/2025 13:24:18] "GET /socket.io/?transport=websocket&EIO=4&sid=N4oO0GMIvE53YgvsAAAH&t=1740399858.4250407 HTTP/1.1" 400 241 0.000259
+(18593) accepted ('127.0.0.1', 57296)
+127.0.0.1 - - [24/Feb/2025 13:24:30] "GET /socket.io/?transport=websocket&EIO=4&sid=jJjkBHOrNSebPhTaAAAY&t=1740399870.4902887 HTTP/1.1" 400 241 0.000224
+(18593) accepted ('127.0.0.1', 57308)
+127.0.0.1 - - [24/Feb/2025 13:24:36] "GET /socket.io/?transport=websocket&EIO=4&sid=lZBxYgRflpt0t0dGAAAa&t=1740399876.9370453 HTTP/1.1" 400 241 0.000214
+(18593) accepted ('127.0.0.1', 44802)
+127.0.0.1 - - [24/Feb/2025 13:24:42] "GET /socket.io/?transport=websocket&EIO=4&sid=NlD2hw03kjjAHZtoAAAc&t=1740399882.4933448 HTTP/1.1" 400 241 0.000221
+(16472) accepted ('127.0.0.1', 44808)
+127.0.0.1 - - [24/Feb/2025 13:24:48] "GET /socket.io/?transport=websocket&EIO=4&sid=yX54hQCZRYJGg_AVAAAe&t=1740399888.779486 HTTP/1.1" 400 241 0.000227
+(18593) accepted ('127.0.0.1', 49868)
+127.0.0.1 - - [24/Feb/2025 13:25:06] "GET /socket.io/?transport=websocket&EIO=4&sid=sxoe5E0QqgjBEzTrAAAg&t=1740399906.6425054 HTTP/1.1" 400 241 0.000282
+(18593) accepted ('127.0.0.1', 38452)
+127.0.0.1 - - [24/Feb/2025 13:25:23] "GET /socket.io/?transport=websocket&EIO=4&sid=zggFuhpo-tdV-A67AAAP&t=1740399923.9382415 HTTP/1.1" 400 241 0.000168
+(18593) accepted ('127.0.0.1', 50232)
+127.0.0.1 - - [24/Feb/2025 13:25:29] "GET /socket.io/?transport=websocket&EIO=4&sid=69Usc85c1xwAxOYUAAAR&t=1740399929.6341083 HTTP/1.1" 400 241 0.000188
+(16366) accepted ('127.0.0.1', 50252)
+127.0.0.1 - - [24/Feb/2025 13:25:35] "GET /socket.io/?transport=websocket&EIO=4&sid=80_v8AS0x0P0btQXAAAk&t=1740399935.764965 HTTP/1.1" 400 241 0.000167
+(17361) accepted ('127.0.0.1', 59034)
+127.0.0.1 - - [24/Feb/2025 13:26:34] "GET /socket.io/?transport=polling&EIO=4&t=1740399994.6856005 HTTP/1.1" 200 300 0.000318
+127.0.0.1 - - [24/Feb/2025 13:26:34] "POST /socket.io/?transport=polling&EIO=4&sid=p84Y9R4CsPwbFkK7AAAO HTTP/1.1" 200 167 0.001205
+(16366) accepted ('127.0.0.1', 59064)
+127.0.0.1 - - [24/Feb/2025 13:26:35] "GET /socket.io/?transport=websocket&EIO=4&sid=2ZWhZAsxibV5jevXAAAA&t=1740399995.8077788 HTTP/1.1" 400 241 0.000373
+127.0.0.1 - - [24/Feb/2025 13:26:35] "GET /socket.io/?transport=polling&EIO=4&sid=2ZWhZAsxibV5jevXAAAA&t=1740399995.8126047 HTTP/1.1" 400 213 0.000240
+127.0.0.1 - - [24/Feb/2025 13:26:38] "GET /socket.io/?transport=polling&EIO=4&sid=xo4VsVeVZ1jnCN9GAAAC&t=1740399998.8253734 HTTP/1.1" 400 213 0.000170
+127.0.0.1 - - [24/Feb/2025 13:26:40] "GET /socket.io/?transport=polling&EIO=4&sid=dvHcJDEwCdqWeiT0AAAE&t=1740400000.6991167 HTTP/1.1" 400 213 0.000151
+127.0.0.1 - - [24/Feb/2025 13:26:43] "GET /socket.io/?transport=polling&EIO=4&t=1740400003.658478 HTTP/1.1" 200 300 0.000350
+127.0.0.1 - - [24/Feb/2025 13:26:43] "POST /socket.io/?transport=polling&EIO=4&sid=s33BorK6bvwUqBe1AAAQ HTTP/1.1" 200 167 0.001283
+(16472) accepted ('127.0.0.1', 49900)
+127.0.0.1 - - [24/Feb/2025 13:26:46] "GET /socket.io/?transport=websocket&EIO=4&sid=9cyZ_KMgngC9K3YEAAAG&t=1740400006.7047389 HTTP/1.1" 400 241 0.000353
+127.0.0.1 - - [24/Feb/2025 13:26:46] "POST /socket.io/?transport=polling&EIO=4&sid=9cyZ_KMgngC9K3YEAAAG HTTP/1.1" 400 213 0.000238
+127.0.0.1 - - [24/Feb/2025 13:26:49] "GET /socket.io/?transport=polling&EIO=4&t=1740400009.5469732 HTTP/1.1" 200 300 0.000293
+(16366) accepted ('127.0.0.1', 52318)
+127.0.0.1 - - [24/Feb/2025 13:26:49] "GET /socket.io/?transport=websocket&EIO=4&sid=KGehGhwk1GO1IyAuAAAS&t=1740400009.549319 HTTP/1.1" 400 241 0.000184
+127.0.0.1 - - [24/Feb/2025 13:26:49] "POST /socket.io/?transport=polling&EIO=4&sid=KGehGhwk1GO1IyAuAAAS HTTP/1.1" 200 167 0.000448
+(16845) accepted ('127.0.0.1', 52332)
+127.0.0.1 - - [24/Feb/2025 13:26:52] "GET /socket.io/?transport=websocket&EIO=4&sid=Uaark7Ufzsy35-9JAAAm&t=1740400012.7113175 HTTP/1.1" 400 241 0.000192
+127.0.0.1 - - [24/Feb/2025 13:26:52] "GET /socket.io/?transport=polling&EIO=4&sid=Uaark7Ufzsy35-9JAAAm&t=1740400012.715646 HTTP/1.1" 400 213 0.000155
+127.0.0.1 - - [24/Feb/2025 13:26:55] "GET /socket.io/?transport=polling&EIO=4&t=1740400015.621787 HTTP/1.1" 200 300 0.000276
+127.0.0.1 - - [24/Feb/2025 13:26:55] "POST /socket.io/?transport=polling&EIO=4&sid=GU_MunkZZvgGSlbIAAAU HTTP/1.1" 200 167 0.000742
+127.0.0.1 - - [24/Feb/2025 13:26:58] "POST /socket.io/?transport=polling&EIO=4&sid=lGQe0u3_4_edZ2XaAAAo HTTP/1.1" 400 213 0.000683
+127.0.0.1 - - [24/Feb/2025 13:27:01] "GET /socket.io/?transport=polling&EIO=4&t=1740400021.3071747 HTTP/1.1" 200 300 0.000455
+127.0.0.1 - - [24/Feb/2025 13:27:01] "POST /socket.io/?transport=polling&EIO=4&sid=Dhozg0jQHZzgdNWIAAAW HTTP/1.1" 200 167 0.001408
+(17361) accepted ('127.0.0.1', 53784)
+127.0.0.1 - - [24/Feb/2025 13:27:12] "GET /socket.io/?transport=websocket&EIO=4&sid=ZKMxKSvvkah7mGF4AAAH&t=1740400032.5296757 HTTP/1.1" 400 241 0.000212
+(16472) accepted ('127.0.0.1', 51780)
+127.0.0.1 - - [24/Feb/2025 13:27:19] "GET /socket.io/?transport=websocket&EIO=4&sid=VxnLJtoP1HaDRY4rAAAJ&t=1740400039.0315366 HTTP/1.1" 400 241 0.000224
+(16366) accepted ('127.0.0.1', 42320)
+127.0.0.1 - - [24/Feb/2025 13:30:23] "GET /socket.io/?EIO=4&transport=polling HTTP/1.1" 200 276 0.000541
+(16472) accepted ('127.0.0.1', 42328)
+127.0.0.1 - - [24/Feb/2025 13:30:41] "GET /socket.io/?EIO=4&transport=websocket HTTP/1.1" 200 0 17.787797

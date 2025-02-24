@@ -4,7 +4,12 @@
 ### Documentation ###
 
     0 - Give full access 777 to images and folders right / left / center
-    subo chmod 777 *
+        cd right
+        subo chmod 777 *
+        cd left
+        subo chmod 777 *
+        cd center
+        subo chmod 777 *
 
     1 - run python script 0 - uploadToHF.py that will do :
         -add extension jpg to each images
